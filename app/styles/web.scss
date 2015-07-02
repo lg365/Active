@@ -58,7 +58,7 @@
 
 body {
     font-family: msLondon;
-    padding: 12px 0px 12px 0px;
+    padding: 25px 0px 12px 0px;
     margin: 0;
 }
 
@@ -70,9 +70,14 @@ body {
     margin: 0 auto;
 }
 
+#main_wrapper {
+    margin-top: 15px;
+}
+
 .banner_gradient {
     background: url('../assets/banner_img_gradient.png') repeat-x center;
     width: 100%;
+    height: 94px;
 }
 
 .banner {
@@ -100,7 +105,7 @@ body {
 }
 
 .border {
-    width: 896px;
+    width: 80%;
     height: 2px;
     background-color: #90D7EC;
     margin: 0 auto;
