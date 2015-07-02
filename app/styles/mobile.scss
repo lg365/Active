@@ -58,11 +58,7 @@
 
 body {
     font-family: msLondon;
-    padding: 12px;
-}
-
-div {
-    position: relative;
+    padding-top: 12px;
 }
 
 .title {
@@ -73,3 +69,13 @@ div {
     margin: 0 auto;
 }
 
+.banner_gradient {
+    background: url('../assets/banner_img_gradient.png') repeat-x center;
+    width: 100%;
+}
+
+.banner {
+    background: url('../assets/banner_img.png') no-repeat center;
+    height: 558px;
+    padding-top: 15px;
+}
