@@ -58,7 +58,8 @@
 
 body {
     font-family: msLondon;
-    padding-top: 12px;
+    padding: 12px 0px 12px 0px;
+    margin: 0;
 }
 
 .title {
@@ -78,4 +79,22 @@ body {
     background: url('../assets/banner_img.png') no-repeat center;
     height: 558px;
     padding-top: 15px;
+}
+
+.button_bg {
+    text-align: center;
+    width: 100%;
+}
+
+.shop_btn {
+    background: #fff;
+    border-color: #4A96CB;
+    border-style: solid;
+    border-width: 2px;
+    color: #4A96CB;
+    font-size: 38pt;
+    font-weight: lighter;
+    width: 282px;
+    height: 76px;
+    margin-top: 320px;
 }
